@@ -53,3 +53,8 @@ Icon?
 ehthumbs.db
 
 Thumbs.db
+
+
+.idea/
+.vscode/
+Logs/
