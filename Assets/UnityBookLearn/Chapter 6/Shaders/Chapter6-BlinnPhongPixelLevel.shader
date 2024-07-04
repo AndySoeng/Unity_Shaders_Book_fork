@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Charpter 6/BlinnPhong Pixel-Level"
+Shader "Untiy Shaders Book Learn/Chapter 6/BlinnPhong Pixel-Level"
 {
     Properties
     {

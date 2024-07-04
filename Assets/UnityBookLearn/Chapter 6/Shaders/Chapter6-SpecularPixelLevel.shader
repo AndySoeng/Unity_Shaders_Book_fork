@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Charpter 6/HalfLambert Pixel-Level"
+Shader "Untiy Shaders Book Learn/Chapter 6/HalfLambert Pixel-Level"
 {
     Properties
     {

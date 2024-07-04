@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Charpter 6/BlinnPhong Vertex-Level"
+Shader "Untiy Shaders Book Learn/Chapter 6/BlinnPhong Vertex-Level"
 {
     Properties
     {

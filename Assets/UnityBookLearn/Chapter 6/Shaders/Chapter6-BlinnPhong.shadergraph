@@ -104,6 +104,9 @@
         },
         {
             "m_Id": "3f5ef164c0854ab08c2dd4f93357dbf1"
+        },
+        {
+            "m_Id": "7f8f9c191f714268afa370e37aedbbf8"
         }
     ],
     "m_GroupDatas": [
@@ -262,6 +265,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "7f8f9c191f714268afa370e37aedbbf8"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "d83dedeb8cb140ecaafc56ae57f546f3"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "87650386dd3847f3af792efe1889f6b8"
                 },
                 "m_SlotId": 0
@@ -408,7 +425,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "d83dedeb8cb140ecaafc56ae57f546f3"
+                    "m_Id": "7f8f9c191f714268afa370e37aedbbf8"
                 },
                 "m_SlotId": 0
             }
@@ -1587,8 +1604,32 @@
     "m_ObjectId": "78988bfa8f5e4451ae278c8e7bac3451",
     "m_Title": "高光反射",
     "m_Position": {
-        "x": -1645.999755859375,
-        "y": 215.9999237060547
+        "x": -1836.0,
+        "y": 216.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "78e1db4d929e47158595ac09b025ee1b",
+    "m_Id": 0,
+    "m_DisplayName": "In",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "In",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
     }
 }
 
@@ -1700,6 +1741,42 @@
     "m_PropertyIds": [],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.NormalizeNode",
+    "m_ObjectId": "7f8f9c191f714268afa370e37aedbbf8",
+    "m_Group": {
+        "m_Id": "78988bfa8f5e4451ae278c8e7bac3451"
+    },
+    "m_Name": "Normalize",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1552.9998779296875,
+            "y": 468.9999694824219,
+            "width": 132.0,
+            "height": 94.00003051757813
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "78e1db4d929e47158595ac09b025ee1b"
+        },
+        {
+            "m_Id": "95513fde6ff54a1586a07d1e4585961b"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
 }
 
 {
@@ -2244,6 +2321,30 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "95513fde6ff54a1586a07d1e4585961b",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
     }
 }
 
@@ -2984,10 +3085,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1620.999755859375,
-            "y": 448.0000305175781,
+            "x": -1769.9998779296875,
+            "y": 468.9999694824219,
             "width": 206.0,
-            "height": 130.99990844726563
+            "height": 130.99996948242188
         }
     },
     "m_Slots": [
