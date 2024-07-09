@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Chapter 6/Chapter6-Specular Vertex-Level"
+Shader "Unity Shaders Book Learn/Chapter 6/Specular Vertex-Level"
 {
     Properties
     {

@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Chapter 7/Single Texture"
+Shader "Unity Shaders Book Learn/Chapter 7/Single Texture"
 {
     Properties
     {

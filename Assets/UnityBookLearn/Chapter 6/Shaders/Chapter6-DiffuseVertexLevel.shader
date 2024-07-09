@@ -1,6 +1,6 @@
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
-Shader "Untiy Shaders Book Learn/Chapter 6/Diffuse Vertex-Level"
+Shader "Unity Shaders Book Learn/Chapter 6/Diffuse Vertex-Level"
 {
     Properties
     {

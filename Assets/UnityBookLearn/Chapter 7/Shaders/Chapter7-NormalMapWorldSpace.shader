@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Chapter 7/Normal Map In World Space"
+Shader "Unity Shaders Book Learn/Chapter 7/Normal Map In World Space"
 {
     Properties
     {

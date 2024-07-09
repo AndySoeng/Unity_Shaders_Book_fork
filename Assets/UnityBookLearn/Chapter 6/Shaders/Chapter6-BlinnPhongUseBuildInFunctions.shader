@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Chapter6-BlinnPhongUseBuildInFunctions"
+Shader "Unity Shaders Book Learn/Chapter 6/BlinnPhongUseBuildInFunctions"
 {
     Properties
     {
