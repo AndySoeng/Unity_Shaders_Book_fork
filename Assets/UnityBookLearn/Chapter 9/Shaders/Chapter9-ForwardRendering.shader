@@ -1,4 +1,4 @@
-Shader "Untiy Shaders Book Learn/Chapter 9/Forward Rendering"
+Shader "Unity Shaders Book Learn/Chapter 9/Forward Rendering"
 {
     Properties
     {
